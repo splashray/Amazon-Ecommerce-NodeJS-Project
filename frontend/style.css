@@ -562,7 +562,7 @@ ul.categories {
 
 .review {
   list-style-type: none;
-  padding: 0;
+  padding: 10;
 }
 .review li {
   margin-bottom: 1rem;

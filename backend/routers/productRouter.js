@@ -163,7 +163,7 @@ productRouter.put(
       if (updatedProduct) {
         res.send({ message: 'Product Updated', product: updatedProduct });
       } else {
-        res.status(500).send({ message: 'Error in updaing product' });
+        res.status(500).send({ message: 'Error in updating product' });
       }
     } else {
       res.status(404).send({ message: 'Product Not Found' });
